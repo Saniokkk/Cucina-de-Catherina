@@ -40,6 +40,7 @@
 .hero-buy-now {
     width: 100%;
     padding: 21px;
+    margin-bottom: 16px;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -55,3 +56,42 @@
 }
 
 .hero-bottle {}
+
+.hero-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.hero-item {
+    display: flex;
+    align-items: center;
+    flex-basis: calc(100%);
+}
+
+.hero-item:first-child:after{
+    content: "";
+    display: block;
+    height: 78px;
+    width: 1px;
+    // padding-left: 21px;
+    background-color: var(--text-color);
+}
+
+.hero-item:last-child{
+    padding-left: 19px;
+}
+.hero-item:first-child .hero-text{
+    margin-right: 19px;
+}
+
+.hero-number {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: calc(39/32);
+}
+
+.hero-text {
+    line-height: calc(20/16);
+    margin-left: 12px;
+}
