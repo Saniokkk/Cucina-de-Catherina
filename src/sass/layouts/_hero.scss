@@ -1,0 +1,57 @@
+.hero {
+    padding: 40px 0;
+}
+
+.hero-container {
+    position: relative;
+}
+
+.hero-title {
+    display: flex;
+    align-items: center;
+    width: 195px;
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: calc(37/30);
+}
+
+.hero-title::before{
+    content: " ";
+    display: inline-block;
+    margin-right: 8px;
+    width: 1px;
+    height: 66px;
+    background-color: var(--text-color);
+}
+
+.hero-subtitle {
+    width: 205px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: calc(20/16);
+    margin-bottom: 228px;
+}
+
+.accent-word {
+    color: #BC1A1A;
+}
+
+.hero-buy-now {
+    width: 100%;
+    padding: 21px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    background-color: var(--bg-btn-color);
+    color: var(--text-color);
+    border-radius: 16px;
+}
+
+.hero-wrraper-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.hero-bottle {}
