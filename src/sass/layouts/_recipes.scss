@@ -11,16 +11,16 @@
 }
 
 .recipes-wrapper {
-display: inline-flex;
+display: flex;
 flex-direction: column;
-// margin-left: auto;
-// align-self: end;
-text-align: center;
+// text-align: center;
 }
 
 .recipes-wrapper:first-child{
-    // margin-left: auto;
     align-self: end;
+}
+.recipes-wrapper:last-child{
+    align-self: start;
 }
 
 .recipes-video{
